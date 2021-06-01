@@ -10,6 +10,7 @@
         android:id="@+id/buttonBora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
         android:text="BORRAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,9 +37,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintVertical_bias="0.327" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -58,9 +61,9 @@
         android:layout_height="41dp"
         android:text="Nombre"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234"
-        tools:layout_editor_absoluteX="60dp" />
+        app:layout_constraintVertical_bias="0.236" />
 
     <TextView
         android:id="@+id/textView3"
@@ -69,10 +72,10 @@
         android:text="Apellido Materno"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.232" />
+        app:layout_constraintVertical_bias="0.248" />
 
     <TextView
         android:id="@+id/textView4"
@@ -103,9 +106,10 @@
         android:layout_height="wrap_content"
         android:text="fecha nacimento"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585"
-        tools:layout_editor_absoluteX="27dp" />
+        app:layout_constraintVertical_bias="0.57" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
