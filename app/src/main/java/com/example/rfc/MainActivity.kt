@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
 
         buttonBora.setOnClickListener {     // Set the first EditText empty
             editText1.setText("");
+            editText2.setText("");
+            editText3.setText("");
+            editText4.setText("");
+            editText5.setText("");
+            editText6.setText("");
+
 
 
         }
