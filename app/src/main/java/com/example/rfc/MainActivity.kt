@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         val editText4 = findViewById<EditText>(R.id.editTextTextPersonName4)
         val editText5 = findViewById<EditText>(R.id.editTextTextPersonName5)
         val editText6 = findViewById<EditText>(R.id.editTextTextPersonName6)
+
+
         val one = findViewById<TextView>(R.id.textView99)
         val pp = findViewById<TextView>(R.id.textView6)
         val nom = findViewById<TextView>(R.id.textViewNO)
@@ -31,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         val mes = findViewById<TextView>(R.id.textViewMEs)
 
         val dia = findViewById<TextView>(R.id.textViewdia)
+        val homo = findViewById<TextView>(R.id.homo_text)
 
         buttonBora.setOnClickListener {     // Set the first EditText empty
             editText1.setText("")
@@ -39,11 +42,22 @@ class MainActivity : AppCompatActivity() {
             editText4.setText("")
             editText5.setText("")
             editText6.setText("")
+            one.setText("")
+            pp.setText("")
+            nom.setText("")
+            ano.setText("")
+            mes.setText("")
+            dia.setText("")
+            homo.setText("")
 
 
         }
+      val gen = GeneradorHomo()
 
         buttonRFc.setOnClickListener {
+        val hom = gen.Generator(lenght = 3,specialword = "")
+        homo.text = hom
+
             val msg = editText3.text.toString().substring(0, 2);
             val msg2 = editText2.text.toString().substring(0, 1);
             val msg3 = editText1.text.toString().substring(0, 1);
@@ -58,7 +72,13 @@ class MainActivity : AppCompatActivity() {
             mes.apply {  text = msg5 }
             dia.apply { text = msg6 }
 
+
+
         }
+
+
+
+
 
 
     }
