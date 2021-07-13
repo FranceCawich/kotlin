@@ -1,4 +1,4 @@
-package com.example.rfc
+package com.example.curpviewmodel
 
 import org.junit.Test
 
