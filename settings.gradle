@@ -1,2 +1,2 @@
-rootProject.name = "curpViewModel"
+rootProject.name = "Final App"
 include ':app'

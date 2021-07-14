@@ -1,4 +1,4 @@
-package com.example.curpviewmodel
+package com.example.finalapp
 
 import org.junit.Test
 
